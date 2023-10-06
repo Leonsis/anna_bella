@@ -9,6 +9,7 @@ body {
 main {
     width: 910px;
     margin: 0 auto;
+    background: rgb(232, 232, 217);
 }
 
 ul {
@@ -20,6 +21,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 /* Configurações header 
 ___________________________________________________________________________________________________________*/
 /* Configurações da tag h1 que está dentro do id logo*/
@@ -65,4 +67,49 @@ nav ul li a:visited {
 nav ul li a:hover {
     color: rgb(197, 197, 178);
     background: rgb(75, 86, 106);
+}
+
+/* Configurações conteiner 
+___________________________________________________________________________________________________________*/
+/* Configurações do id container que está dentro da tag main */
+#container {
+    padding: 0px 10px 5px 10px;
+}
+
+/* Configurações da tag h2 que está dentro do id container */
+#container h2 {
+    color: rgb(130, 130, 113);
+}
+
+/* Configurações da tag p que está dentro do id container */
+#container p {
+    text-align: justify;
+}
+
+/* Configurações da class imagem que está dentro do id container */
+#container .imagem {
+    border: 5px solid rgb(130, 130, 113);
+}
+
+/* Configurações da tag span que esta dentro do id container */
+#container span {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Configurações footer 
+___________________________________________________________________________________________________________*/
+/* Configurações da tag footer que está dentro da tag main */
+footer {
+    text-align: center;
+    background: rgb(197, 197, 178);
+    padding: 10px;
+}
+
+/* Configurações da tag h3 e h4 que estão dentro da tag footer */
+footer h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
 }
